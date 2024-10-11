@@ -8,7 +8,10 @@ main {
     gap: 50px;
 
 }
-
+header{
+    display: flex;
+    justify-content: center;
+}
 .cover{
     min-width: 100px;
     max-width: 400px;
@@ -54,6 +57,10 @@ li {
 
 .border{
     display: flex;
+    background-image: url("../art/dark_souls_3_soul_of_cinder.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
     border: 1px solid black;
     flex-direction: column;
     justify-content: space-between;
